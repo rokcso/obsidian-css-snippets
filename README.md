@@ -6,7 +6,4 @@
 
 **Preview**
 
-![custom-icon-preview.jpeg](https://github.com/rokcso/obsidian-css-snippets/blob/dcdd61d74ee5296e0fe9fc2dd5aaf7a47bbea6dc/assets/custom-icon-preview.jpeg)
-
-
 ![custom-icon-preview.jpeg](https://github.com/rokcso/obsidian-css-snippets/blob/main/assets/custom-icon-preview.jpeg)

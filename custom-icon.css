@@ -1,0 +1,54 @@
+/* author: https://github.com/rokcso */
+/* source: https://github.com/rokcso/obsidian-css-snippets */
+
+/* 文件夹配置开始 */
+/* 自定义根文件夹的 icon */
+div[data-path="/"] .nav-folder-title-content::before {
+    content: "";
+}
+
+/* 将根文件夹对齐目录最左侧，默认对齐文件夹最左侧（不包括折叠提示 icon）*/
+div[data-path="/"] {
+    left: -17px;
+}
+
+/* 全局自定义文件夹的 icon，使用 .nav-folder-children 限定为根文件夹以外的所有子文件夹 */
+.nav-folder-children .nav-folder-title-content::before {
+    content: "🗂️ ";
+}
+
+/* 自定义指定文件夹的 icon */
+div[data-path="Developer"] .nav-folder-title-content::before
+{
+  content: "🛠️ ";
+}
+div[data-path="Developer/Git"] .nav-folder-title-content::before
+{
+  content: "🕸️ ";
+}
+div[data-path="Developer/JavaScript"] .nav-folder-title-content::before
+{
+  content: "🧱 ";
+}
+div[data-path="Developer/Swift"] .nav-folder-title-content::before
+{
+  content: "🍎 ";
+}
+
+div[data-path="Product & Design"] .nav-folder-title-content::before
+{
+  content: "🍞 ";
+}
+div[data-path="Product & Design/UI & UX"] .nav-folder-title-content::before
+{
+  content: "🧩 ";
+}
+/* 文件夹配置结束 */
+
+
+/* 文件配置开始 */
+/* 全局自定义文件的 icon */
+.nav-file-title-content::before {
+    content: "📝 ";
+}
+/* 文件配置结束 */
